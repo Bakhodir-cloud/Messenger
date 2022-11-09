@@ -18,7 +18,7 @@ class RegisterViewController: UIViewController {
         let imageView = UIImageView()
         imageView.image = UIImage(systemName: "person")
         imageView.tintColor = .gray
-        imageView.contentMode = .scaleAspectFit
+        imageView.contentMode = .scaleAspectFill
         imageView.layer.masksToBounds = true
         imageView.layer.borderWidth = 2
         imageView.layer.borderColor = UIColor.lightGray.cgColor
